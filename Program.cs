@@ -33,6 +33,7 @@ namespace HomeWork18._04
                 return result;
             }
         }
+        delegate T Mess<T>(T one,T two);
         static void Main()
         {
 
